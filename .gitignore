@@ -1,0 +1,136 @@
+# .NET Core / ASP.NET Core
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pdb
+*.vs/
+*.vscode/
+bin/
+obj/
+*.dll
+*.exe
+*.cache
+*.log
+*.tlog
+*.aps
+*.bak
+*.tmp
+*.temp
+*.nupkg
+*.snk
+
+# Visual Studio
+.vscode/
+.vs/
+*.code-workspace
+
+# Rider (JetBrains)
+.idea/
+*.iml
+
+# ASP.NET Core specific
+appsettings.Development.json
+appsettings.Production.json
+appsettings.*.json
+wwwroot/
+
+# Docker
+Dockerfile.user
+*.dockerignore
+docker-compose.override.yml
+
+# Build and test artifacts
+TestResults/
+coverage.*
+*.trx
+*.xml
+
+# Dependency directories
+node_modules/
+packages/
+*.lock.json
+
+# Database related
+*.mdf
+*.ldf
+*.sql
+*.sqlite
+*.db
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package manager
+NuGet.Config
+NuGetScratch/
+
+# Other
+*.pidb
+*.scc
+*.vssscc
+*.vspscc
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Secrets and sensitive files
+secrets/
+*.key
+*.pem
+*.pfx
+*.cer
+*.crt
+*.pub
+
+# IDE specific
+*.swp
+*~
+.project
+.classpath
+.settings/
+*.launch
+*.sublime-*
+
+# Miscellaneous
+*.bak
+*.cache
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pdb
+*.ipdb
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore specific folders
+publish/
+dist/
+out/
+build/
